@@ -1,6 +1,6 @@
-# MoveInSync Guard – Backend API
+# MoveInSync – Backend API
 
-This is the backend service for the MoveInSync Guard intelligent alert monitoring system. It acts as the core engine of the platform, responsible for processing incoming sensor data, applying business rules, escalating alerts, resolving events automatically, and maintaining real-time dashboard statistics used by the frontend.
+This is the backend service for the MoveInSync intelligent alert monitoring system. It acts as the core engine of the platform, responsible for processing incoming sensor data, applying business rules, escalating alerts, resolving events automatically, and maintaining real-time dashboard statistics used by the frontend.
 
 The backend is designed for **high scalability**, **low-latency reads**, and **modular logic separation**, using a Service-Oriented Architecture (SOA) with caching and optimized database queries.
 
@@ -174,7 +174,6 @@ ADMIN CONFIGURATION
 GET /api/alerts/rules  
 PUT /api/alerts/rules/:id  
 POST /api/rules/analyze  
-POST /api/alerts/reset  
 POST /api/alerts/sync  
 
 ===========================================================
